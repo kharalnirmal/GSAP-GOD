@@ -6,8 +6,10 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+   base: '/GSAP-GOD/',
   plugins: [tailwindcss()],
   build: {
+    
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
