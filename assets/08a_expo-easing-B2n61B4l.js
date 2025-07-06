@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";/* empty css              */const n=document.querySelector(".fab"),c=document.querySelectorAll(".fab-child");let e=!1;n.addEventListener("click",()=>{if(e=!e,n.textContent=e?"×":"＋",e){const t=Math.PI/1.5,l=Math.PI/2+t/2;c.forEach((o,a)=>{l-a*(t/(c.length-1))})}else c.forEach(t=>{})});
