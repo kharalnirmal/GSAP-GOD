@@ -1,6 +1,6 @@
 .toast {
   position: absolute;
-  bottom: 20px;
+  bottom: -100px;
   background: linear-gradient(135deg, #00cec9, #0984e3);
   color: white;
   padding: 1rem 2rem;
@@ -9,6 +9,6 @@
   backdrop-filter: blur(10px);
   letter-spacing: 0.5px;
   font-size: 16px;
-  opacity: 1;
+  opacity: 0;
   transform: translateY(0) scale(0.95);
 }
